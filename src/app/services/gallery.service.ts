@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { ethers } from "ethers";
 import { environment } from "../../environments/environment";
-import Gallery from '../../../artifacts/contracts/Gallery.sol/Gallery.json'
+import Gallery from '../../../Gallery.json'
 import detectEthereumProvider from "@metamask/detect-provider";
 
 @Injectable({
